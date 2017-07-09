@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/titletop_ratingtwo"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="PhotoMeta"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Is this something you would like to do more, about the same, or less of?"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/titletop_ratingtwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/adbove4_txt"/>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/ratingtwo_rel"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ratingline"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/lefttwo_rel"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/lefttwo_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left1_rel"
+            android:layout_marginLeft="27dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left1_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left2_rel"
+            android:layout_marginLeft="54dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left2_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left3_rel"
+            android:layout_marginLeft="81dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left3_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left4_rel"
+            android:layout_marginLeft="108dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left4_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/midtwo_rel"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/midtwo_img"
+                android:background="@drawable/pointrating"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid1_rel"
+            android:layout_marginLeft="162dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid1_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid2_rel"
+            android:layout_marginLeft="189dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid2_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid3_rel"
+            android:layout_marginLeft="216dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid3_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid4_rel"
+            android:layout_marginLeft="243dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid4_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/righttwo_rel"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/righttwo_img"
+                android:background="@drawable/pointrating"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="7dp"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingtwo_rel"
+        android:layout_marginTop="-8dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="LESS"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="SAME"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="MORE"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-7dp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_above="@+id/bottom_rel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/submit_btn"
+        android:text="Submit"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_rel"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="27dp"
+            android:scaleType="fitXY"
+            android:id="@+id/progress_upload"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ratings"
+            android:layout_alignTop="@+id/next_upload" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:id="@+id/previous_ratingtwo"
+            android:layout_centerVertical="true"
+            android:src="@drawable/previous"
+            android:layout_toLeftOf="@+id/progress_upload"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/alert_ratingtwo">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:alpha="0.9"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="270dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rounded_corner_img">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you ready to submit this photo?"
+                android:textSize="23dp"
+                android:id="@+id/alert_title"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:textSize="18dp"
+                android:id="@+id/verifyOK_btn_two"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/alert_title"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textSize="18dp"
+                android:id="@+id/verifyCan_btn_two"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/verifyOK_btn_two"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

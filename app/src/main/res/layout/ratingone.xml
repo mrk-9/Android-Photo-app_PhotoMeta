@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/titletop_ratingone"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="PhotoMeta"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.How do you feel about the image in this photo?"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/titletop_ratingone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/adbove3_txt" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/rating_rel"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ratingline"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left_rel"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left1_rel"
+            android:layout_marginLeft="27dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left1_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left2_rel"
+            android:layout_marginLeft="54dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left2_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left3_rel"
+            android:layout_marginLeft="81dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left3_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/left4_rel"
+            android:layout_marginLeft="108dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/left4_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid_rel"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid_img"
+                android:background="@drawable/pointrating"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid1_rel"
+            android:layout_marginLeft="162dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid1_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid2_rel"
+            android:layout_marginLeft="189dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid2_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid3_rel"
+            android:layout_marginLeft="216dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid3_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/mid4_rel"
+            android:layout_marginLeft="243dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/mid4_img"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/pointrating"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/right_rel"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/right_img"
+                android:background="@drawable/pointrating"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="7dp"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating_rel"
+        android:layout_marginTop="-8dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="It makes me sad"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="I am ok with this"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="It makes me happy"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:scaleType="fitXY"
+            android:id="@+id/progress_upload"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ratingf"
+            android:layout_alignTop="@+id/next_upload" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:id="@+id/next_ratingone"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/next"
+            android:layout_toRightOf="@+id/progress_upload"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:id="@+id/previous_ratingone"
+            android:layout_centerVertical="true"
+            android:src="@drawable/previous"
+            android:layout_toLeftOf="@+id/progress_upload"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

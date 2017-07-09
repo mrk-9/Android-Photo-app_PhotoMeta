@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/titletop_title"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="PhotoMeta"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Please give this photo a title that describes what the image means to you"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/titletop_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/adbove2_txt"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_title"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/titleicon"
+            android:id="@+id/img_key_signup"
+            android:layout_centerVertical="true"/>
+        <EditText
+            android:layout_width="227dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/title_title"
+            android:background="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_key_signup"
+            android:hint="Title"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17dp"
+            android:inputType="text"/>
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/img_key_signup"
+            android:layout_marginTop="10dp">
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:scaleType="fitXY"
+            android:id="@+id/progress_upload"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/progress"
+            android:layout_alignTop="@+id/next_upload" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:id="@+id/next_title"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/next"
+            android:layout_toRightOf="@+id/progress_upload"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:id="@+id/previous_title"
+            android:layout_centerVertical="true"
+            android:src="@drawable/previous"
+            android:layout_toLeftOf="@+id/progress_upload"
+            />
+    </RelativeLayout>
+</RelativeLayout>
